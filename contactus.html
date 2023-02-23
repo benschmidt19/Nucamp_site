@@ -5,26 +5,21 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
+   <!-- build:css css.min.css -->
     <link
       rel="stylesheet"
-      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
-    />
-
-    <!-- Additional CSS must be placed after Bootstrap CSS -->
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
     <link
       rel="stylesheet"
-      href="node_modules/font-awesome/css/font-awesome.min.css"
-    />
+      href="node_modules/font-awesome/css/font-awesome.min.css"/>
     <link
       rel="stylesheet"
-      href="node_modules/bootstrap-social/bootstrap-social.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans"
-    />
+      href="node_modules/bootstrap-social/bootstrap-social.css"/>
     <link rel="stylesheet" href="css/styles.css" />
+    <!-- endbuild -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"/>
 
     <title>NuCamp: A Better Way To Camp</title>
   </head>
@@ -49,37 +44,31 @@
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
       <div class="container">
         <a class="navbar-brand" href="index.html"
-          ><img src="img/logo.png" height="30" width="30"
-        /></a>
+          ><img src="img/logo.png" height="30" width="30"/></a>
         <button
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="#nucampNavbar"
-        >
+          data-target="#nucampNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="nucampNavbar">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="index.html"
-                ><i class="fa fa-home fa-lg"></i> Home</a
-              >
+              <a class="nav-link" href="index.html">
+                <i class="fa fa-home fa-lg"></i> Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="aboutus.html"
-                ><i class="fa fa-info fa-lg"></i> About</a
-              >
+              <a class="nav-link" href="aboutus.html">
+                <i class="fa fa-info fa-lg"></i> About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"
-                ><i class="fa fa-list fa-lg"></i> Sites</a
-              >
+              <a class="nav-link" href="#">
+                <i class="fa fa-list fa-lg"></i> Sites</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#"
-                ><i class="fa fa-address-card fa-lg"></i> Contact</a
-              >
+              <a class="nav-link" href="#">
+                <i class="fa fa-address-card fa-lg"></i> Contact</a>
             </li>
           </ul>
         </div>
@@ -109,14 +98,13 @@
         </div>
         <div class="col">
           <a role="button" class="btn btn-link" href="tel: +12065551234"
-            ><i class="fa fa-phone"></i> 1-206-555-1234</a
-          ><br />
+            ><i class="fa fa-phone"></i> 1-206-555-1234</a>
+            <br />
           <a
             role="button"
             class="btn btn-link"
             href="mailto:campsites@nucamp.co"
-            ><i class="fa fa-envelope-o"></i> campsites@nucamp.co</a
-          >
+            ><i class="fa fa-envelope-o"></i> campsites@nucamp.co</a>
         </div>
       </div>
 
@@ -129,44 +117,38 @@
           <form action="">
             <div class="form-group row">
               <label for="firstName" class="col-md-2 col-form-label"
-                >First Name</label
-              >
+                >First Name</label>
               <div class="col-md-10">
                 <input
                   type="text"
                   class="form-control"
                   id="firstName"
                   name="firstName"
-                  placeholder="First Name"
-                />
+                  placeholder="First Name"/>
               </div>
             </div>
             <div class="form-group row">
               <label for="lastName" class="col-md-2 col-form-label"
-                >Last Name</label
-              >
+                >Last Name</label>
               <div class="col-md-10">
                 <input
                   type="text"
                   class="form-control"
                   id="lastName"
                   name="lastName"
-                  placeholder="Last Name"
-                />
+                  placeholder="Last Name"/>
               </div>
             </div>
             <div class="form-group row">
               <label for="areaCode" class="col-md-2 col-form-label"
-                >Contact Tel.</label
-              >
+                >Contact Tel.</label>
               <div class="col-5 col-md-3">
                 <input
                   type="tel"
                   class="form-control"
                   id="areaCode"
                   name="areaCode"
-                  placeholder="Area Code"
-                />
+                  placeholder="Area Code"/>
               </div>
 
               <div class="col-7">
@@ -174,8 +156,7 @@
                   type="tel"
                   class="form-control"
                   name="telNum"
-                  placeholder="Phone Number"
-                />
+                  placeholder="Phone Number"/>
               </div>
             </div>
             <div class="form-group row">
@@ -186,8 +167,7 @@
                   class="form-control"
                   id="email"
                   name="email"
-                  placeholder="Email"
-                />
+                  placeholder="Email"/>
               </div>
             </div>
             <div class="form-group row">
@@ -199,8 +179,7 @@
                     class="form-check-input"
                     id="contactYes"
                     name="contactRadios"
-                    value="yes"
-                  />
+                    value="yes"/>
                   <label for="contactYes" class="form-check-label">Yes</label>
                 </div>
                 <div class="form-check form-check-inline">
@@ -209,23 +188,21 @@
                     class="form-check-input"
                     id="contactNo"
                     name="contactRadios"
-                    value="no"
-                  />
+                    value="no"/>
                   <label for="contactNo" class="form-check-label">No</label>
                 </div>
               </div>
             </div>
             <div class="form-group row">
               <label for="feedback" class="col-md-2 col-form-label"
-                >Your Feedback</label
-              >
+                >Your Feedback</label>
               <div class="col-md-10">
                 <textarea
                   class="form-control"
                   name="feedback"
                   id="feedback"
-                  rows="8"
-                ></textarea>
+                  rows="8">
+                </textarea>
               </div>
             </div>
             <div class="form-group row">
@@ -257,40 +234,41 @@
             <a
               class="btn btn-social-icon btn-instagram"
               href="http://instagram.com/"
-              ><i class="fa fa-instagram"></i
-            ></a>
+              ><i class="fa fa-instagram"></i>
+            </a>
             <a
               class="btn btn-social-icon btn-facebook"
-              href="http://facebook.com/"
-              ><i class="fa fa-facebook"></i
-            ></a>
+              href="http://facebook.com/">
+              <i class="fa fa-facebook"></i>
+            </a>
             <a
               class="btn btn-social-icon btn-twitter"
               href="http://twitter.com/"
-              ><i class="fa fa-twitter"></i
-            ></a>
+              ><i class="fa fa-twitter"></i>
+            </a>
             <a class="btn btn-social-icon btn-google" href="http://youtube.com/"
-              ><i class="fa fa-youtube"></i
-            ></a>
+              ><i class="fa fa-youtube"></i>
+            </a>
           </div>
           <div class="col-sm-4 text-center">
             <a role="button" class="btn btn-link" href="tel: +12065551234"
-              ><i class="fa fa-phone"></i> 1-206-555-1234</a
-            ><br />
+              ><i class="fa fa-phone"></i> 1-206-555-1234</a>
+            <br />
             <a
               role="button"
               class="btn btn-link"
-              href="mailto:campsites@nucamp.co"
-              ><i class="fa fa-envelope-o"></i> campsites@nucamp.co</a
-            >
+              href="mailto:campsites@nucamp.co">
+              <i class="fa fa-envelope-o"></i> campsites@nucamp.co</a>
           </div>
         </div>
       </div>
     </footer>
 
-    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <!-- build.js js/main.js-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
   </body>
 </html>
